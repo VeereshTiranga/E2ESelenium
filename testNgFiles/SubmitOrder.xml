@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite   name="Suite">
+<listeners>
+<listener class-name="TestComponents.Listeners"/>
+</listeners>
+  <test  name="Submit Order Test">
+    <classes>
+      <class name="ECommerceapplication.E2EEcommerceApplication.SubmitOrderTest"/>
+    
+    </classes>
+  </test> 
+</suite> 
