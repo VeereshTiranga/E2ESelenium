@@ -38,7 +38,7 @@ public class SubmitOrderTest extends BaseTest {
 	String productName;
 
 
-//checking for github webhook
+//checking for github webhook, once again
 	@Test(dataProvider = "getData")
 	public void submitOrder(HashMap<String, String> data) throws IOException, InterruptedException {
 
